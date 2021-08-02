@@ -1,6 +1,6 @@
 hdbscan
 spotipy
-django
+django==2.1.5
 funcy
 matplotlib
 numpy

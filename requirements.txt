@@ -9,3 +9,4 @@ pandas
 django-picklefield
 scikit_learn
 social-auth-app-django
+gunicorn

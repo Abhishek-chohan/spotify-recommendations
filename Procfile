@@ -1,1 +1,1 @@
-web: gunicorn django_deployment.wsgi
+web: gunicorn spotify-recommendations.wsgi

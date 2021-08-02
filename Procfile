@@ -1,1 +1,1 @@
-web: gunicorn spotify-recs.wsgi
+web: gunicorn spotify_recs.wsgi

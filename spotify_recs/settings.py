@@ -109,9 +109,9 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
 SOCIAL_AUTH_URL_NAMESPACE = "social"
 
-SOCIAL_AUTH_SPOTIFY_KEY = "5fe40e82ba784e6e8c10e465af890764"  # was this:  os.environ['SPOTIPY_CLIENT_ID']
+SOCIAL_AUTH_SPOTIFY_KEY = "fd2ae3d3b2d3407da3b02a97376827b5"  # was this:  os.environ['SPOTIPY_CLIENT_ID']
 SOCIAL_AUTH_SPOTIFY_SECRET = (
-    "50e66225e91841528af44e703ac3e53d"  # was this: os.environ['SPOTIPY_CLIENT_SECRET']
+    "9f9ef0aea3aa4c3785f3b0684b85b75e"  # was this: os.environ['SPOTIPY_CLIENT_SECRET']
 )
 
 AUTHENTICATION_BACKENDS = (

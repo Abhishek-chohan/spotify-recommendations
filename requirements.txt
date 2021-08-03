@@ -1,6 +1,6 @@
 hdbscan
 spotipy
-django==2.1.5
+django
 funcy
 matplotlib
 numpy
@@ -10,3 +10,4 @@ django-picklefield
 scikit_learn
 social-auth-app-django
 gunicorn
+whitenoise

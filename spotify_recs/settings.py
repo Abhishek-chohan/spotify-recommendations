@@ -60,7 +60,7 @@ WSGI_APPLICATION = "spotify_recs.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-#SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",

@@ -143,7 +143,7 @@ class RecommendationsView(ListView):
         context["token"] = social.extra_data["access_token"]
         social.extra_data["spotify_me"] = spotipy.Spotify(auth=context["token"]).me()
         context["first_name"] = social.extra_data["spotify_me"]["display_name"].split()[0]
-        context["last_name"] = social.extra_data["spotify_me"]["display_name"].split('.')[1]
+        #context["last_name"] = social.extra_data["spotify_me"]["display_name"].split('.')[1]
 
         if recs.shape[0] > 0:
             logger.info("creating song db objects")

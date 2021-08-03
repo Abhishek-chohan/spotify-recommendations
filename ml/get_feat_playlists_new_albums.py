@@ -16,7 +16,7 @@ logger.setLevel(logging.INFO)
 
 def main():
     client_credentials_manager = SpotifyClientCredentials(
-        client_id="5fe40e82ba784e6e8c10e465af890764", client_secret="50e66225e91841528af44e703ac3e53d"
+        client_id="fd2ae3d3b2d3407da3b02a97376827b5", client_secret="e84c4e18dd2f463aa0c649341d64dbfb"
     )
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 

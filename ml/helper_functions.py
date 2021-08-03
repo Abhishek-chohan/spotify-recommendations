@@ -159,8 +159,7 @@ def get_deep_song_info(all_results, df_master, username, token, sp):
         drop_columns = ["duration_ms", "type", "analysis_url", "track_href", "uri", "id"]
 
         # create df from deep features and drop columns
-        audio_features_df = pd.DataFrame(all_audio_features)
-        #audio_features_df = pd.DataFrame(all_audio_features).T.drop(drop_columns, axis=1)
+        audio_features_df = pd.DataFrame(all_audio_features).T.drop(drop_columns, axis=1)
 
         # merge main df with deep df
         df_master = df_master.join(audio_features_df, on=df_master.index)
